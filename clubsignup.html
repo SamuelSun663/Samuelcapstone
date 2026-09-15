@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Sign Up Form </title>
+</head>
+<body>
+    <h2>Club Sign Up Form</h2>
+    <form action="submit_signup.php" method="get">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="club">Select Club:</label><br>
+        <select id="club" name="club" required>
+            <option value="">--Please choose an option--</option>
+            <option value="sports">Sports Club</option>
+            <option value="music">Music Club</option>
+            <option value="art">Art Club</option>
+            <option value="science">Science Club</option>
+        </select><br><br>
+        <p>Why do you want to join this club?</p>
+        <textarea name="message" rows="4" cols="50" placeholder="Type response here..."></textarea><br><br>
+
+        <input type="submit" value="Sign Up">
+</body>
+</html>
+
+
